@@ -1,0 +1,7 @@
+AuthUserFile "/home/koningonline/public_html/pi/htusers"
+AuthType Basic
+AuthName "Graag even inloggen"
+require valid-user
+<Files htusers>
+deny from all
+</Files>
